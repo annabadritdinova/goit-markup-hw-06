@@ -21,18 +21,22 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
-          <a href="./index.html" class="logo">
-            <img src="./Images/WebStudio.svg" alt="" />
-          </a>
+        <a href="./index.html" class="logo">
+          <img src="./Images/WebStudio.svg" alt="" />
+        </a>
 
+        <nav>
           <div class="site-nav">
             <ul>
               <li class="link-s">
-                <a href="" class="current-link" style="text-decoration: none"
+                <a
+                  href=""
+                  class="current-link link"
+                  style="text-decoration: none"
                   >Студия</a
                 >
               </li>
+
               <li>
                 <a
                   href="./portfolio.html"
@@ -48,38 +52,40 @@
               </li>
             </ul>
           </div>
-          <div class="list">
-            <ul>
-              <li>
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="current-link"
-                  style="text-decoration: none"
-                >
-                  <svg class="icon-mail">
-                    <use xlink:href="./Images/icons/sprite.svg#icon-mail"></use>
-                  </svg>
-                  <span>info@devstudio.com</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="tel:+"
-                  class="link-telephone"
-                  style="text-decoration: none"
-                >
-                  <svg class="icon-telephone">
-                    <use
-                      xlink:href="./Images/icons/sprite.svg#icon-telephone"
-                    ></use>
-                  </svg>
-
-                  <span>+38 096 111 11 11</span></a
-                >
-              </li>
-            </ul>
-          </div>
         </nav>
+
+        <div class="list">
+          <ul>
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mail-link"
+                style="text-decoration: none"
+              >
+                <svg class="icon-mail">
+                  <use xlink:href="./Images/icons/sprite.svg#icon-mail"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="tel:+"
+                class="link-telephone"
+                style="text-decoration: none"
+              >
+                <svg class="icon-telephone">
+                  <use
+                    xlink:href="./Images/icons/sprite.svg#icon-telephone"
+                  ></use>
+                </svg>
+
+                <span>+38 096 111 11 11</span></a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -157,7 +163,7 @@
       </div>
 
       <div class="whatwedo">
-        <section>
+        <section class="whatwedo-container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <div class="images">
             <ul>
@@ -185,7 +191,7 @@
           </div>
         </section>
       </div>
-      <section>
+      <section class="our-team">
         <div class="section-pros">
           <h2>Наша команда</h2>
           <ul class="pros">
@@ -477,189 +483,166 @@
 
     <div class="content-footer">
       <footer class="bottom">
-        <div class="total-box">
-          <div class="bottom-content">
-            <a href="/">
-              <img src="./Images/Logofooter.svg" alt="" />
-            </a>
-            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-            <a href="mailto:" class="info">info@example.com</a>
-            <br />
+        <div class="bottom-content">
+          <a href="/">
+            <img src="./Images/Logofooter.svg" alt="" />
+          </a>
+          <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+          <a href="mailto:" class="info">info@example.com</a>
+          <br />
 
-            <a href="tel:+" class="info">+38 099 111 11 11</a>
-          </div>
+          <a href="tel:+" class="info">+38 099 111 11 11</a>
+        </div>
 
-          <div class="footer-links">
-            <h3 class="footer-links-title">присоединяйтесь</h3>
-            <ul class="social-icon-list">
-              <li class="social-icon-item">
-                <a class="social-icon-link" href="https://instagram.com/">
-                  <svg class="icon-social">
-                    <use
-                      xlink:href="./Images/icons/sprite.svg#icon-instagram"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
+        <div class="footer-links">
+          <h3 class="footer-links-title">присоединяйтесь</h3>
+          <ul class="social-icon-list">
+            <li class="social-icon-item">
+              <a class="social-icon-link" href="https://instagram.com/">
+                <svg class="icon-social">
+                  <use
+                    xlink:href="./Images/icons/sprite.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
 
-              <li class="social-icon-item">
-                <a class="social-icon-link" href="https://twitter.com/">
-                  <svg class="icon-social">
-                    <use
-                      xlink:href="./Images/icons/sprite.svg#icon-twitter"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
+            <li class="social-icon-item">
+              <a class="social-icon-link" href="https://twitter.com/">
+                <svg class="icon-social">
+                  <use
+                    xlink:href="./Images/icons/sprite.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
 
-              <li class="social-icon-item">
-                <a class="social-icon-link" href="https://facebook.com/">
-                  <svg class="icon-social">
-                    <use
-                      xlink:href="./Images/icons/sprite.svg#icon-facebook"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
+            <li class="social-icon-item">
+              <a class="social-icon-link" href="https://facebook.com/">
+                <svg class="icon-social">
+                  <use
+                    xlink:href="./Images/icons/sprite.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
 
-              <li class="social-icon-item">
-                <a class="social-icon-link" href="https://linkedin.com/">
-                  <svg class="icon-social">
-                    <use
-                      xlink:href="./Images/icons/sprite.svg#icon-linkedin"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+            <li class="social-icon-item">
+              <a class="social-icon-link" href="https://linkedin.com/">
+                <svg class="icon-social">
+                  <use
+                    xlink:href="./Images/icons/sprite.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-          <div class="subscribe">
-            <h5 class="subscribe-title">Подпишитесь на рассылку</h5>
-            <form class="subscribe-form">
-              <div class="flexbox">
-                <label for="subscribe"></label>
-                <input
-                  class="subscribe-field"
-                  type="email"
-                  name="subscribe"
-                  id="subscribe"
-                  placeholder="E-mail"
-                />
-                <button type="submit" class="subscribe-button">
-                  Подписаться
-                  <svg
-                    class="send-icon"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
-                      fill="white"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+        <div class="subscribe">
+          <h5 class="subscribe-title">Подпишитесь на рассылку</h5>
+          <form class="subscribe-form">
+            <div class="flexbox">
+              <label for="subscribe"></label>
+              <input
+                class="subscribe-field"
+                type="email"
+                name="subscribe"
+                id="subscribe"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe-button">
+                Подписаться
+                <svg
+                  class="send-icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </footer>
     </div>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close></button>
-        <h5 class="modal-header">Оставьте свои данные, мы вам перезвоним</h5>
-        <form autocomplete="off">
-          <div class="modal-blocks">
-            <input
-              class="form-input"
-              type="text"
-              name="name"
-              id="name"
-              placeholder=" "
-            />
-            <label class="form-label" for="name">Имя</label>
-            <span class="modal-icon"
-              ><svg class="person-icon">
-                <use href="./images/modal.svg#person"></use>
-              </svg>
-            </span>
-          </div>
-
-          <div class="modal-blocks">
-            <input
-              class="form-input"
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder=" "
-            />
-            <label class="form-label" for="tel">Телефон</label>
-            <span class="modal-icon"
-              ><svg class="phone-icon">
-                <use href="./images/modal.svg#phone-black"></use>
-              </svg>
-            </span>
-          </div>
-
-          <div class="modal-blocks">
-            <input
-              class="form-input"
-              type="email"
-              name="mail"
-              id="mail"
-              placeholder=" "
-            />
-            <label class="form-label" for="mail">Почта</label>
-            <span class="modal-icon"
-              ><svg class="email-icon">
-                <use href="./images/modal.svg#email-black"></use>
-              </svg>
-            </span>
-          </div>
-
-          <div class="modal-blocks">
-            <label class="form-label" for="comment">Комментарий</label>
-            <textarea
-              name="comment"
-              class="comments"
-              id="comment"
-              placeholder="Введите текст"
-            ></textarea>
-          </div>
-
-          <div class="agreement-text"></div>
-
-          <div class="form-checked">
-            <label class="agreement" for="agreement">
-              <input
-                type="checkbox"
-                class="checked-input"
-                name="agree"
-                value="yes"
-                id="agreement"
-                checked
-              />
-              Соглашаюсь с рассылкой и принимаю<a
-                href=""
-                class="agreement-bold"
+        <button class="modal-close" data-modal-close>
+          <svg width="18" height="18">
+            <use href="./Images/sprite.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="modal-form">
+          <ul>
+            <li>
+              <label for="name" class="modal-form-label">
+                Имя
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="modal-form-input"
+                />
+                <svg width="18" height="18">
+                  <use href="./Images/sprite.svg#icon-person-black"></use>
+                </svg>
+              </label>
+            </li>
+            <li>
+              <label class="modal-form-label">
+                Телефон
+                <input type="tel" name="phone" class="modal-form-input" />
+                <svg width="18" height="18">
+                  <use href="./Images/sprite.svg#icon-phone-black"></use>
+                </svg>
+              </label>
+            </li>
+            <li>
+              <label for="email" class="modal-form-label">
+                Почта
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="modal-form-input"
+                />
+                <svg width="18" height="18">
+                  <use href="./Images/sprite.svg#icon-email-black"></use>
+                </svg>
+              </label>
+            </li>
+            <li>
+              <label for="comment" class="modal-form-label">
+                Комментарий
+              </label>
+              <textarea
+                name="comment"
+                id="comment"
+                placeholder="Введите текст"
+              ></textarea>
+            </li>
+            <li class="modal-form-checkbox">
+              <label
+                ><input name="accept" type="checkbox" />Соглашаюсь с рассылкой и
+                принимаю <a href="">Условия договора</a></label
               >
-                Условия договора</a
-              >
-              <span class="checkbox-box"></span>
-            </label>
-          </div>
-          <div class="agreement-text">
-            <button type="submit" class="button-primary">Отправить</button>
-          </div>
+            </li>
+            <li>
+              <button type="submit">Отправить</button>
+            </li>
+          </ul>
         </form>
       </div>
     </div>
-
     <script src="./js/script.js"></script>
   </body>
 </html>
