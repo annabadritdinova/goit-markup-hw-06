@@ -762,9 +762,9 @@ h4 {
   border-radius: 50%;
   transition: all 250ms var(--time);
 }
+
 .social-icon-link svg {
   fill: rgb(175, 177, 184);
-  transition: all 250ms var(--time);
 }
 
 .social-icon-link:hover {
@@ -773,6 +773,7 @@ h4 {
 
 .social-icon-link:hover svg {
   fill: var(--primary-white-color);
+  transition: all 250ms var(--time);
 }
 
 .social-icon {
@@ -788,10 +789,10 @@ h4 {
 
 .customers-item svg {
   fill: #afb1b8;
-  transition: all 250ms var(--time);
 }
 
 .customers-item:hover svg {
+  transition: all 250ms var(--time);
   fill: var(--secondary-accent-color);
 }
 
@@ -1250,6 +1251,7 @@ ul {
   background-color: #ffffff;
   position: absolute;
   width: 528px;
+  height: 600px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(0deg);
@@ -1397,6 +1399,7 @@ ul {
   border: none;
   padding: 10px 0px 10px 0px;
 }
+
 .modal-form button:hover {
   cursor: pointer;
 }
